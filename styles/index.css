@@ -1,3 +1,12 @@
+body
+{
+    
+   
+}
+.common-margin-top
+{
+    margin-top: 100px;
+}
 .first-section
 {
     height: 500px;
@@ -7,6 +16,58 @@
 .first-flower-part
 {
     display: flex;
-    gap:50px;
-    padding: 60px;
+   
+   justify-content:space-between;
+   align-items: center;
+}
+.button-shop-now
+{
+    background-color: palevioletred;
+    border: 0;
+    padding:10px;
+    border-radius: 5px;
+    color:white;
+    
+}
+.first-flower-part-title
+{
+    text-align:center;
+}
+.our-featured-flower-title
+{
+    text-align: center;
+    
+}
+.our-featured-extra-part
+{
+    display: flex;
+    background-color: grey;
+    max-width: 1140px;
+    margin-left: 150px;
+    justify-content: space-around;
+    padding: 20px;
+    
+}
+.our-featured-extra-part-items
+{
+   
+}
+.hot-deal-section
+{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer
+{
+    background-color: black;
+    height: 400px;
+    color: white;
+    text-align: center;
+    
+}
+.flower
+{
+    color: rgb(247, 103, 127);
 }
