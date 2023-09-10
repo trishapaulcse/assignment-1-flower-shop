@@ -55,6 +55,27 @@ main
     padding: 20px;
   
 }
+.instagram-heading
+{
+    text-align: center;
+    font-size: 30px;
+    
+}
+.insta-para
+{
+    color: rgb(181, 180, 180);
+    text-align: center;
+}
+.insta-img-size
+{
+    height: 350px;
+    width:302px;
+    margin-right: 20.5px;
+}
+#insta-last-img
+{
+    margin-left: 1px;
+}
 .hot-deal-section
 {
     background-color: aliceblue;
