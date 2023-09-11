@@ -30,6 +30,7 @@ main
     border-radius: 5px;
     color:white;
     margin-left: 150px;
+    margin-bottom: 50px;
     
 }
 .first-flower-size
@@ -42,7 +43,7 @@ main
 {
     text-align:justify;
     padding-left: 150px;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 800;
 }
 .first-flower-part-para
@@ -80,7 +81,28 @@ main
     background-color: rgb(194, 192, 192);
     justify-content: space-around;
     padding: 20px;
-  
+}
+.our-feature-img
+{
+    background-color: grey;
+    height: 400px;
+    width: 350px;
+    padding: 70px 30px 0px 30px;
+    margin-right: 32px;
+    border-top-left-radius: 500px 500px;
+    border-top-right-radius: 500px 500px;
+}
+#our-feature-img-last
+{
+    margin-right: 0px;
+}
+.our-feature-img-title
+{
+    display: flex;
+    text-decoration: underline;
+   text-align: center;
+   padding-left: 80px;
+    gap:300px;
 }
 
 /* instagram section style*/
