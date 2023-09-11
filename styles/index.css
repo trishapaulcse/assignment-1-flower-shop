@@ -7,7 +7,7 @@ main
     margin-top: 100px;
 }
 
-/* for first section */
+/*first section style*/
 
 .first-section
 {
@@ -20,6 +20,7 @@ main
    display: flex;
    justify-content:space-between;
    align-items: center;
+   gap:-20%;
 }
 .button-shop-now
 {
@@ -27,34 +28,63 @@ main
     border: 0;
     padding:20px;
     border-radius: 5px;
-    color:white; 
+    color:white;
+    margin-left: 150px;
+    
 }
 .first-flower-size
 {
     height:450px;
     width:400px;
-    padding: 20px 20px 0px 20px;
+    padding:50px 50px 50px 0px;
 }
 .first-flower-part-title
 {
-    text-align:center;
+    text-align:justify;
+    padding-left: 150px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.first-flower-part-para
+{
+    text-align:justify;
+    padding-left: 150px;
+    color: rgb(185, 183, 183);
+}
+
+.paragraph
+{
+    color: rgb(185, 183, 183); 
+    text-align: center; 
+}
+.our-feature-para
+{
+    margin-left: -50px;
 }
 
 /* our feature part section */
 
 .our-featured-flower-title
 {
-    text-align: center;
-    
+    text-align: center;   
 }
+.our-featured-flower-heading
+{
+    font-size: 30px;
+    font-weight: 800;
+}
+
 .our-featured-extra-part
 {
     display: flex;
-    background-color: grey;
+    background-color: rgb(194, 192, 192);
     justify-content: space-around;
     padding: 20px;
   
 }
+
+/* instagram section style*/
+
 .instagram-heading
 {
     text-align: center;
@@ -70,12 +100,16 @@ main
 {
     height: 350px;
     width:302px;
-    margin-right: 20.5px;
+    margin-right: 27px;
+    
 }
 #insta-last-img
 {
-    margin-left: 1px;
+    margin-right: 0px;
 }
+
+/* hot deal section style */
+
 .hot-deal-section
 {
     background-color: aliceblue;
@@ -97,6 +131,8 @@ main
     height: 300px;
     width: 300px;
 }
+
+/* footer section style */
 
 .footer
 {
@@ -122,22 +158,25 @@ main
   
 }
 .latest-deals-title
-
 {
     padding-top: 120px;
     text-align: center;
 }
 .latest-deals-title input[type=text]
 {
-  
     width: 500px;
     padding: 20px;
     border: 0;
     border-radius: 3px;
 }
-.subscribe-button
-{
 
+.subscribe-sign-up-button
+{
+    background-color: palevioletred;
+    border: 0;
+    padding:20px;
+    border-radius: 5px;
+    color:white;
 }
 .all-reserved-footer
 {
